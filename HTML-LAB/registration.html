@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <form action="">
+        <label for="name">Full Name: </label>
+        <input type="text" id="name">
+        <label for="id">Student ID: </label>
+        <input type="text" id="id">
+        <label for="email">Email: </label>
+        <input type="email" id="email" placeholder="johnmilbertg@gmail.com">
+        <label for="password">Password: </label>
+        <input type="password" id="password" minlength="7" maxlength="10" required>
+        <label for="birthday">Birthday: </label>
+        <input type="date" id="birthday">
+        <label for="gender">Gender: </label>
+        <select name="gender" id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <h1>Select Your Program: </h1>
+        <input type="radio" id="BSIT" name="program">
+        <label for="BSIT">BSIT</label>
+        <input type="radio" id="BSCS" name="program">
+        <label for="BSCS">BSIT</label><br>
+        <h1>Select Your Hobbies: </h1>
+        <input type="checkbox" id="Gaming" name="hobbies">
+        <label for="Gaming">Playing Games</label>
+        <input type="checkbox" id="Anime" name="hobbies">
+        <label for="Anime">Watching Animes</label>
+        <input type="checkbox" id="Others" name="hobbies">
+        <label for="Others">Others</label><br>
+        <label for="address">Address: </label>
+        <input type="text" id="address">
+        <label for="comments">Comments: </label>
+        <textarea name="comments" id="comments"></textarea>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
